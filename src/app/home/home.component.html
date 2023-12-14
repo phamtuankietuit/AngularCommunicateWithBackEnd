@@ -1,0 +1,20 @@
+<div class="container">
+    <table>
+        <thead>
+            <tr>
+                <th>USER ID</th>
+                <th>ID</th>
+                <th>TITLE</th>
+                <th>BODY</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let s of posts">
+                <td>{{s.userId}}</td>
+                <td>{{s.id}}</td>
+                <td>{{s.title}}</td>
+                <td>{{s.body}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
